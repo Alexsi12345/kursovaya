@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="863.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <AnchorPane layoutX="-10.0" layoutY="104.0" prefHeight="379.0" prefWidth="868.0" style="-fx-background-color: ffffff;">
+         <children>
+            <TextField fx:id="login_field" layoutX="262.0" layoutY="96.0" prefHeight="40.0" prefWidth="341.0" text="Логин">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="password_field" layoutX="262.0" layoutY="158.0" prefHeight="40.0" prefWidth="342.0" text="Пароль">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="296.0" layoutY="14.0" text="Авторизация" textFill="#2e3348">
+               <font>
+                  <Font name="System Bold Italic" size="40.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="7.0" layoutY="320.0" prefHeight="59.0" prefWidth="864.0" style="-fx-background-color: #696969;">
+               <children>
+                  <Label layoutX="68.0" layoutY="9.0" text="Designed by Alex Melnikov" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="AuthSiginButton" layoutX="325.0" layoutY="212.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="214.0" style="-fx-background-color: #696969;" text="Войти" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="285.0" layoutY="14.0" text="Develop Inc" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="LoginSignUpButton" layoutX="641.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="206.0" style="-fx-background-color: #696969;" text="Зарегестрироваться" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
